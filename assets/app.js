@@ -1,3 +1,4 @@
+// assets/app.js
 // Carga los proyectos desde el JSON y genera las tarjetas dinámicamente.
 // Para agregar un proyecto nuevo: solo edita data/projects.json, no este archivo.
 
@@ -10,9 +11,12 @@ fetch('data/projects.json')
       const card = document.createElement('div');
       card.className = 'card';
 
+      // Badge con color distinto según el tipo de proyecto
+      const badgeClase = p.tipo === 'Arquitectura de Datos' ? 'badge badge-arq' : 'badge';
+
       card.innerHTML = `
         <img src="${p.thumbnail}" alt="${p.titulo}" loading="lazy">
-        <h3>${p.titulo} <span class="badge">${p.tipo}</span></h3>
+        <h3>${p.titulo} <span class="${badgeClase}">${p.tipo}</span></h3>
         <p>${p.descripcion}</p>
         <div class="tags">${p.tags.map(t => `<span>${t}</span>`).join('')}</div>
         <a href="${p.url}" target="_blank" aria-label="Ver proyecto: ${p.titulo}">
